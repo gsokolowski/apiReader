@@ -43,6 +43,10 @@ class WilliamXml extends ThirdParty {
     }
 
     // funkcje musisz zaimplementowac
+    // ta funkja musi zwracasc dane w postaci tabeli
+    // ta funkcja w CostamJason bedzie musiala rowniez zwracac dane w postaci tabli
+    // zrobisz unifikacje
+
     public function processResponse($apiResponse){
         $responseXml = simplexml_load_string($apiResponse);
 
